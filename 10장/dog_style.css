@@ -1,0 +1,88 @@
+body {
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+header {
+    width: 80%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 80px;
+}
+
+header h1 {
+    float: left;
+    color: white;
+    padding-left: 20px;
+}
+
+header nav {
+    float: right;
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+article {
+    clear: both;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid grey;
+    padding: 5px;
+}
+
+section {
+    columns: 3;
+    column-rule: 1px dotted grey;
+    padding: 10px;
+}
+
+section h3 {
+    break-before: column;
+    padding-left: 15px;
+}
+
+section dt {
+    padding-left: 20px;
+}
+
+section dt, section dd {
+    line-height: 30px;
+}
+
+aside {
+    clear: both;
+    background-color: aquamarine;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+aside li {
+    line-height: 30px;
+}
+
+footer {
+    clear: both;
+    background-color: cyan;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
