@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 1- 최민호</title>
+    <style>
+        .origin {
+            width: 200px;
+            height: 134px;
+            margin: 40px;
+            float: left
+        }
+
+        .skewx:hover {
+            -webkit-transform: skewX(40deg);
+            -ms-transform: skewX(40deg);
+            -moz-transform: skewX(40deg);
+            -o-transform: skewX(40deg);
+            transform: skewX(40deg);
+        }
+
+        .skew:hover {
+            -webkit-transform: skewY(15deg);
+            -ms-transform: skewY(15deg);
+            -moz-transform: skewY(15deg);
+            -o-transform: skewY(15deg);
+            transform: skewY(15deg);
+        }
+
+        .skewxy:hover {
+            -webkit-transform: skewXY(25,-15deg);
+            -ms-transform: skewXY(25,-15deg);
+            -moz-transform: skewXY(25,-15deg);
+            -o-transform: skewXY(25,-15deg);
+            transform: skewXY(25,-15deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="skewx">
+            <img src="rose.jpg">
+        </div>
+    </div>
+    <div class="orgin">
+        <div class="skwey">
+            <img src="rose.jpg">
+        </div>
+    </div>
+    <div class="orgin">
+        <div class="skewxy">
+            <img src="rose.jpg">
+        </div>
+    </div>
+</body>
+</html>
