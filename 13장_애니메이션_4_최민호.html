@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션1_최민호</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin-top: 50px;
+            margin-left: 100px;
+            background-color: aqua;
+            animation-name: change-shape;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        @keyframes change-shape {
+            from {
+                transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            }
+
+            50% {
+                
+                transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+            }
+
+            to {
+                transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+            }
+        }   
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
