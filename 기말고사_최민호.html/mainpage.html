@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+
+    <style>
+
+
+        div.container {
+            padding: 30px;
+            margin: 30px;
+        }
+
+        div.srch {
+            float: right;
+            padding: 25px;
+            margin: 25px;
+            position: relative;
+            top: -250px;
+            font-weight: bold
+        }
+
+        nav {
+            text-align: left;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+            top: -100px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 80px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .dog {
+            position: absolute;
+            top: 35%;
+            margin-left: 100px;
+            padding-left: 150px;
+        }
+
+        .dog ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .dog li {
+            position: relative;
+            float: left;
+            padding: 0px;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        li img {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            z-index: 5;
+        }
+
+        .price {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            padding-top: 20px;
+            background-color: rgba(0, 0, 0, 0.557);
+            opacity: 0;
+            transition: all 0.2s ease-in-out;
+            z-index: 10;
+            color: white;
+            text-align: center;
+        }
+
+        li:hover .price {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-weight: bold
+          }
+
+          h2 {
+            position: absolute;
+            top: 25%;
+            margin-left: 700px;
+          }
+
+          div.full {
+            position: absolute;
+            top: 45%;
+            margin-left: 1400px;
+        }
+
+        div.call {
+            position: absolute;
+            top: 80%;
+            margin-left: 1200px;
+        }
+
+        p.mag {
+            position: absolute;
+            top: 85%;
+            margin-left: 1200px;
+        }
+
+        div.call1 {
+            position: absolute;
+            top: 83%;
+            margin-left: 1150px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <a href="mypage.html">
+        <img src="images/default-user-icon-13.jpg" width="90px" height="90px"><br></a>
+        <a href="login.html">로그인/회원가입</a>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="hotpage.html">인기 상품</a></li>
+            <li><a href="hotpage.html">실시간 인기 상품</a></li>
+            <li><a href="#">Ai 추천</a></li>
+            <li><a href="#">상품 목록</a></li>
+        </ul>
+    </nav>
+    <div class="srch">
+        <label for="user_search">[검색] : </label>
+        <input type="search" name="user_search" id="user_search">
+    </div>
+
+    <div class="dog">
+        <ul>
+            <li>
+                <img src="images/82481_originalView_02637328.jpg" width="240px" height="240px"> 
+                <div class="price">
+                    <h1>상품 1</h1>        
+                    <p>가격 : 25.000원</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/다운로드.jpeg" width="240px" height="240px"> 
+                <div class="price">
+                    <h1>상품 2</h1>        
+                    <p>가격 : 30.000원</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/op1.jpg" width="240px" height="240px"> 
+                <div class="price">
+                    <h1>상품 3</h1>        
+                    <p>가격 : 18.000원</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/op.jpg" width="240px" height="240px"> 
+                <div class="price">
+                    <h1>상품 4</h1>        
+                    <p>가격 : 15.000원</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <h2>추천 상품</h2>
+
+    <footer>
+        <p>흰둥이 옷가게</p>
+        <p>컴퓨터공학부 - 202395032 - 최민호</p>
+    </footer>
+
+    <a href="mypage.html">
+        <div class="full">
+            <img src="images/man.png" width="30px" height="30px"><br>
+            <img src="images/heart.png" width="30px" height="30px"><br>
+            <img src="images/bug.jpeg" width="30px" height="30px"><br>
+            <img src="images/chat.jpeg" width="30px" height="30px">
+        </div>
+    </a>
+    
+    <p class="mag">lovecoco
+        COPYRIGHT<br> © lovecoco ALL RIGHTS RESERVED.</p>
+
+        <div class="call1">
+            <img src="images/call.jpeg" width="30px" height="30px">
+        </div>
+    
+        <div class="call">
+            <h3>010-0000-0000</h3>
+</body>
+</html>
